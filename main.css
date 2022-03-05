@@ -1,0 +1,30 @@
+/* The heart of the matter */
+.testimonial-group > .row {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  .testimonial-group > .row > .col-4 {
+    display: inline-block;
+  }
+  .img1{
+    border-radius: 50%;
+    border: 5px solid purple;
+  }
+  /* Decorations 
+  .col-4 {
+     height:100%;
+     width:100%;
+      padding-bottom: 20px;
+       padding-top: 18px; 
+      background-color: blue;
+      }
+
+*/
+  .col-4:nth-child(n){
+     /* background-color: blueviolet;*/
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+   
+}
