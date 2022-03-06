@@ -9,7 +9,7 @@
   }
   .img1{
     border-radius: 50%;
-    border: 5px solid purple;
+    border: 2px solid purple;
   }
   /* Decorations 
   .col-4 {
@@ -23,8 +23,22 @@
 */
   .col-4:nth-child(n){
      /* background-color: blueviolet;*/
+   display: flex;
     border-radius: 50%;
     width: 50px;
     height: 50px;
    
+}
+footer {
+  position: fixed;
+  height: 30px;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  justify-content: space-between;
+}
+#li{
+  margin-top:10px;
+  display: flex;
+  justify-content: space-between;
 }
